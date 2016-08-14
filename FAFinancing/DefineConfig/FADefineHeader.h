@@ -25,10 +25,6 @@ extern bool stringEmpty(NSString *text);
 ///账号是否登录 k
 static NSString *kACCOUNT_DIDLOGIN  = @"didLogin";
 
-///投资方的名称
-static NSString *const kINVERST_NAME    = @"投资方";
-/// 融资方名称
-static NSString *const kACCEPT_NAME     = @"标的方";
 
 #pragma mark - Import -
 //************ import ******************
