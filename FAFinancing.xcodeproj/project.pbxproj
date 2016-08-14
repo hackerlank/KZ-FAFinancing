@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450128BF1D60CAAB0053513D /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128BA1D60CAAB0053513D /* FALoginViewController.m */; };
+		450128C01D60CAAB0053513D /* FARegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128BC1D60CAAB0053513D /* FARegisterViewController.m */; };
+		450128C61D60CABF0053513D /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128C31D60CABF0053513D /* FAMainViewController.m */; };
+		450128CC1D60CAD10053513D /* FAProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128C91D60CAD10053513D /* FAProjectViewController.m */; };
+		450128D21D60CAE90053513D /* FAMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128CF1D60CAE90053513D /* FAMessageViewController.m */; };
+		450128D81D60CAFD0053513D /* FAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450128D51D60CAFD0053513D /* FAMineViewController.m */; };
 		451428AF1D58683D00067C49 /* FAErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 451428AE1D58683D00067C49 /* FAErrorDescription.m */; };
 		451428B21D588B7700067C49 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 451428B11D588B7700067C49 /* app_icon.png */; };
 		454468BB1D5C4EA600BC0035 /* UINavigationController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 454468B41D5C4EA600BC0035 /* UINavigationController+WXSTransition.m */; };
@@ -28,7 +34,6 @@
 		456398501D581EDF00AD9CBF /* Primary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4563984E1D581EDF00AD9CBF /* Primary.storyboard */; };
 		456398521D581EDF00AD9CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456398511D581EDF00AD9CBF /* Assets.xcassets */; };
 		456398551D581EDF00AD9CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456398531D581EDF00AD9CBF /* LaunchScreen.storyboard */; };
-		459ED1AB1D5AD2A9000DB458 /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */; };
 		459ED1B01D5AEB40000DB458 /* NSString+HKZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1AF1D5AEB40000DB458 /* NSString+HKZAdd.m */; };
 		459ED1B51D5B12EA000DB458 /* EXTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1B41D5B12EA000DB458 /* EXTView.m */; };
 		45A919D11D582BD50062E28C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919D01D582BD50062E28C /* AppDelegate.m */; };
@@ -37,16 +42,23 @@
 		45A919E31D582DCD0062E28C /* FAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919E21D582DCD0062E28C /* FAUtil.m */; };
 		45E4DCAB1D598EE7000A0E00 /* FAFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCAA1D598EE7000A0E00 /* FAFinancing.m */; };
 		45E4DCB21D59B752000A0E00 /* FAGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCB11D59B752000A0E00 /* FAGuideViewController.m */; };
-		45E4DCB91D59B8A4000A0E00 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */; };
-		45E4DCC01D59B953000A0E00 /* FAProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */; };
-		45E4DCC71D59B990000A0E00 /* FAMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */; };
-		45E4DCCE1D59B9BF000A0E00 /* FAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */; };
-		45E4DCD11D59BB74000A0E00 /* FARegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */; };
 		45E4DCD61D59BF25000A0E00 /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E4DCD41D59BF25000A0E00 /* Secondary.storyboard */; };
 		AC996B9949AC3EAE0DB2CEF0 /* libPods-FAFinancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E529050C2349479B5EB6F0DF /* libPods-FAFinancing.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		450128B91D60CAAB0053513D /* FALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
+		450128BA1D60CAAB0053513D /* FALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
+		450128BB1D60CAAB0053513D /* FARegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARegisterViewController.h; sourceTree = "<group>"; };
+		450128BC1D60CAAB0053513D /* FARegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARegisterViewController.m; sourceTree = "<group>"; };
+		450128C21D60CABF0053513D /* FAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
+		450128C31D60CABF0053513D /* FAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
+		450128C81D60CAD10053513D /* FAProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAProjectViewController.h; sourceTree = "<group>"; };
+		450128C91D60CAD10053513D /* FAProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAProjectViewController.m; sourceTree = "<group>"; };
+		450128CE1D60CAE90053513D /* FAMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMessageViewController.h; sourceTree = "<group>"; };
+		450128CF1D60CAE90053513D /* FAMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMessageViewController.m; sourceTree = "<group>"; };
+		450128D41D60CAFD0053513D /* FAMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMineViewController.h; sourceTree = "<group>"; };
+		450128D51D60CAFD0053513D /* FAMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMineViewController.m; sourceTree = "<group>"; };
 		451428AD1D58683D00067C49 /* FAErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAErrorDescription.h; sourceTree = "<group>"; };
 		451428AE1D58683D00067C49 /* FAErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAErrorDescription.m; sourceTree = "<group>"; };
 		451428B11D588B7700067C49 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
@@ -87,8 +99,6 @@
 		456398511D581EDF00AD9CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456398541D581EDF00AD9CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		456398561D581EDF00AD9CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		459ED1A91D5AD2A9000DB458 /* FALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
-		459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
 		459ED1AE1D5AEB40000DB458 /* NSString+HKZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HKZAdd.h"; sourceTree = "<group>"; };
 		459ED1AF1D5AEB40000DB458 /* NSString+HKZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HKZAdd.m"; sourceTree = "<group>"; };
 		459ED1B31D5B12EA000DB458 /* EXTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTView.h; sourceTree = "<group>"; };
@@ -107,16 +117,6 @@
 		45E4DCAA1D598EE7000A0E00 /* FAFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFinancing.m; sourceTree = "<group>"; };
 		45E4DCB01D59B752000A0E00 /* FAGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAGuideViewController.h; sourceTree = "<group>"; };
 		45E4DCB11D59B752000A0E00 /* FAGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAGuideViewController.m; sourceTree = "<group>"; };
-		45E4DCB71D59B8A4000A0E00 /* FAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
-		45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
-		45E4DCBE1D59B953000A0E00 /* FAProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAProjectViewController.h; sourceTree = "<group>"; };
-		45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAProjectViewController.m; sourceTree = "<group>"; };
-		45E4DCC51D59B990000A0E00 /* FAMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMessageViewController.h; sourceTree = "<group>"; };
-		45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMessageViewController.m; sourceTree = "<group>"; };
-		45E4DCCC1D59B9BF000A0E00 /* FAMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMineViewController.h; sourceTree = "<group>"; };
-		45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMineViewController.m; sourceTree = "<group>"; };
-		45E4DCCF1D59BB74000A0E00 /* FARegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARegisterViewController.h; sourceTree = "<group>"; };
-		45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARegisterViewController.m; sourceTree = "<group>"; };
 		45E4DCD51D59BF25000A0E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Secondary.storyboard; sourceTree = "<group>"; };
 		578BF59A71532E1251E124E1 /* Pods-FAFinancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAFinancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAFinancing/Pods-FAFinancing.release.xcconfig"; sourceTree = "<group>"; };
 		E529050C2349479B5EB6F0DF /* libPods-FAFinancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FAFinancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +134,123 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		450128B81D60CAAB0053513D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450128B91D60CAAB0053513D /* FALoginViewController.h */,
+				450128BA1D60CAAB0053513D /* FALoginViewController.m */,
+				450128BB1D60CAAB0053513D /* FARegisterViewController.h */,
+				450128BC1D60CAAB0053513D /* FARegisterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450128BD1D60CAAB0053513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450128BE1D60CAAB0053513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450128C11D60CABF0053513D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450128C21D60CABF0053513D /* FAMainViewController.h */,
+				450128C31D60CABF0053513D /* FAMainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450128C41D60CABF0053513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450128C51D60CABF0053513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450128C71D60CAD10053513D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450128C81D60CAD10053513D /* FAProjectViewController.h */,
+				450128C91D60CAD10053513D /* FAProjectViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450128CA1D60CAD10053513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450128CB1D60CAD10053513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450128CD1D60CAE90053513D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450128CE1D60CAE90053513D /* FAMessageViewController.h */,
+				450128CF1D60CAE90053513D /* FAMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450128D01D60CAE90053513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450128D11D60CAE90053513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		450128D31D60CAFD0053513D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				450128D41D60CAFD0053513D /* FAMineViewController.h */,
+				450128D51D60CAFD0053513D /* FAMineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		450128D61D60CAFD0053513D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		450128D71D60CAFD0053513D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		451428B01D588B2A00067C49 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,11 +301,10 @@
 		4550945F1D585125007D561E /* LoginRegister */ = {
 			isa = PBXGroup;
 			children = (
+				450128B81D60CAAB0053513D /* Controller */,
+				450128BD1D60CAAB0053513D /* Model */,
+				450128BE1D60CAAB0053513D /* View */,
 				455094601D585125007D561E /* LoginRegister.storyboard */,
-				45E4DCCF1D59BB74000A0E00 /* FARegisterViewController.h */,
-				45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */,
-				459ED1A91D5AD2A9000DB458 /* FALoginViewController.h */,
-				459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */,
 			);
 			path = LoginRegister;
 			sourceTree = "<group>";
@@ -347,8 +463,9 @@
 		45E4DCB61D59B8A4000A0E00 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				45E4DCB71D59B8A4000A0E00 /* FAMainViewController.h */,
-				45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */,
+				450128C11D60CABF0053513D /* Controller */,
+				450128C41D60CABF0053513D /* Model */,
+				450128C51D60CABF0053513D /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -356,8 +473,9 @@
 		45E4DCBD1D59B953000A0E00 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				45E4DCBE1D59B953000A0E00 /* FAProjectViewController.h */,
-				45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */,
+				450128C71D60CAD10053513D /* Controller */,
+				450128CA1D60CAD10053513D /* Model */,
+				450128CB1D60CAD10053513D /* View */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -365,8 +483,9 @@
 		45E4DCC41D59B990000A0E00 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				45E4DCC51D59B990000A0E00 /* FAMessageViewController.h */,
-				45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */,
+				450128CD1D60CAE90053513D /* Controller */,
+				450128D01D60CAE90053513D /* Model */,
+				450128D11D60CAE90053513D /* View */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -374,8 +493,9 @@
 		45E4DCCB1D59B9BF000A0E00 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				45E4DCCC1D59B9BF000A0E00 /* FAMineViewController.h */,
-				45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */,
+				450128D31D60CAFD0053513D /* Controller */,
+				450128D61D60CAFD0053513D /* Model */,
+				450128D71D60CAFD0053513D /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -523,33 +643,33 @@
 			files = (
 				459ED1B51D5B12EA000DB458 /* EXTView.m in Sources */,
 				456398471D581EDF00AD9CBF /* main.m in Sources */,
-				459ED1AB1D5AD2A9000DB458 /* FALoginViewController.m in Sources */,
 				455094561D583622007D561E /* FADefineHeader.m in Sources */,
 				459ED1B01D5AEB40000DB458 /* NSString+HKZAdd.m in Sources */,
-				45E4DCCE1D59B9BF000A0E00 /* FAMineViewController.m in Sources */,
+				450128D81D60CAFD0053513D /* FAMineViewController.m in Sources */,
 				45A919E31D582DCD0062E28C /* FAUtil.m in Sources */,
 				455094711D586241007D561E /* FAAccount.m in Sources */,
+				450128D21D60CAE90053513D /* FAMessageViewController.m in Sources */,
+				450128BF1D60CAAB0053513D /* FALoginViewController.m in Sources */,
 				451428AF1D58683D00067C49 /* FAErrorDescription.m in Sources */,
 				4550945C1D583DC2007D561E /* UIWindow+HUD.m in Sources */,
-				45E4DCC01D59B953000A0E00 /* FAProjectViewController.m in Sources */,
 				455094741D586241007D561E /* FAParameters.m in Sources */,
-				45E4DCB91D59B8A4000A0E00 /* FAMainViewController.m in Sources */,
 				455094531D5834CA007D561E /* UIAlertView+RWBlock.m in Sources */,
 				455094521D5834CA007D561E /* UIActionSheet+FastAction.m in Sources */,
 				45E4DCB21D59B752000A0E00 /* FAGuideViewController.m in Sources */,
 				454468BC1D5C4EA600BC0035 /* UIViewController+WXSTransition.m in Sources */,
 				45A919D91D582C6E0062E28C /* FABaseViewController.m in Sources */,
 				455094731D586241007D561E /* FARequestManager.m in Sources */,
-				45E4DCC71D59B990000A0E00 /* FAMessageViewController.m in Sources */,
+				450128C01D60CAAB0053513D /* FARegisterViewController.m in Sources */,
 				4552691B1D5D67E600F53FD8 /* UIViewController+FAFinancing.m in Sources */,
 				454468BD1D5C4EA600BC0035 /* WXSTransitionManager.m in Sources */,
 				45A919D11D582BD50062E28C /* AppDelegate.m in Sources */,
-				45E4DCD11D59BB74000A0E00 /* FARegisterViewController.m in Sources */,
 				45E4DCAB1D598EE7000A0E00 /* FAFinancing.m in Sources */,
 				455094721D586241007D561E /* FAAccountManager.m in Sources */,
 				455094591D583ADC007D561E /* UIViewController+HUD.m in Sources */,
+				450128CC1D60CAD10053513D /* FAProjectViewController.m in Sources */,
 				455094641D5851D2007D561E /* FABaseTabBarController.m in Sources */,
 				45A919DC1D582C980062E28C /* FABaseTableViewController.m in Sources */,
+				450128C61D60CABF0053513D /* FAMainViewController.m in Sources */,
 				454468BB1D5C4EA600BC0035 /* UINavigationController+WXSTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,16 +1,16 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "479e5002-4019-4e40-bf49-6f3ce9d2044f++6299",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E3470DD05BF2F53BC876846FB38F0F044C44DB1B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "479e5002-4019-4e40-bf49-6f3ce9d2044f++6299" : {
+    "E3470DD05BF2F53BC876846FB38F0F044C44DB1B" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "479e5002-4019-4e40-bf49-6f3ce9d2044f++6299" : 0
+    "E3470DD05BF2F53BC876846FB38F0F044C44DB1B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F14FCBAB-23ED-4F78-B79D-F6A9C150462C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "479e5002-4019-4e40-bf49-6f3ce9d2044f++6299" : "FAFinancing\/"
+    "E3470DD05BF2F53BC876846FB38F0F044C44DB1B" : "FAFinancing\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "FAFinancing",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,7 +19,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.1.254",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "479e5002-4019-4e40-bf49-6f3ce9d2044f++6299"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3470DD05BF2F53BC876846FB38F0F044C44DB1B"
     }
   ]
 }
