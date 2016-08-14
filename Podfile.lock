@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - FDFullscreenPopGesture (1.1)
+  - GTMBase64 (1.0.0)
+  - IQKeyboardManager (3.3.7)
+  - Masonry (1.0.1)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - SDAutoLayout (2.1.4)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - TZImagePickerController (1.5.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - CocoaLumberjack
+  - FDFullscreenPopGesture
+  - GTMBase64 (~> 1.0.0)
+  - IQKeyboardManager
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - SDAutoLayout (~> 2.1.4)
+  - SDWebImage (~> 3.8.1)
+  - TZImagePickerController (~> 1.5.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GTMBase64: 0da7372e95f5171f3f652db38cde6716f8eb5e24
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDAutoLayout: 1b2926b193a63287f473dae426ed07861e21e271
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  TZImagePickerController: d09eef6042852a9dd19224ae4e874f7430852a51
+
+COCOAPODS: 0.39.0

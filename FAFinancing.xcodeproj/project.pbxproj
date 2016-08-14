@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451428AF1D58683D00067C49 /* FAErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 451428AE1D58683D00067C49 /* FAErrorDescription.m */; };
+		451428B21D588B7700067C49 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 451428B11D588B7700067C49 /* app_icon.png */; };
+		454468BB1D5C4EA600BC0035 /* UINavigationController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 454468B41D5C4EA600BC0035 /* UINavigationController+WXSTransition.m */; };
+		454468BC1D5C4EA600BC0035 /* UIViewController+WXSTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 454468B61D5C4EA600BC0035 /* UIViewController+WXSTransition.m */; };
+		454468BD1D5C4EA600BC0035 /* WXSTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 454468B81D5C4EA600BC0035 /* WXSTransitionManager.m */; };
+		455094521D5834CA007D561E /* UIActionSheet+FastAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550944F1D5834CA007D561E /* UIActionSheet+FastAction.m */; };
+		455094531D5834CA007D561E /* UIAlertView+RWBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 455094511D5834CA007D561E /* UIAlertView+RWBlock.m */; };
+		455094561D583622007D561E /* FADefineHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 455094551D583622007D561E /* FADefineHeader.m */; };
+		455094591D583ADC007D561E /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 455094581D583ADC007D561E /* UIViewController+HUD.m */; };
+		4550945C1D583DC2007D561E /* UIWindow+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550945B1D583DC2007D561E /* UIWindow+HUD.m */; };
+		455094611D585125007D561E /* LoginRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455094601D585125007D561E /* LoginRegister.storyboard */; };
+		455094641D5851D2007D561E /* FABaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455094631D5851D2007D561E /* FABaseTabBarController.m */; };
+		455094711D586241007D561E /* FAAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550946A1D586241007D561E /* FAAccount.m */; };
+		455094721D586241007D561E /* FAAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550946C1D586241007D561E /* FAAccountManager.m */; };
+		455094731D586241007D561E /* FARequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4550946E1D586241007D561E /* FARequestManager.m */; };
+		455094741D586241007D561E /* FAParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 455094701D586241007D561E /* FAParameters.m */; };
+		4552691B1D5D67E600F53FD8 /* UIViewController+FAFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4552691A1D5D67E600F53FD8 /* UIViewController+FAFinancing.m */; };
+		456398471D581EDF00AD9CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 456398461D581EDF00AD9CBF /* main.m */; };
+		456398501D581EDF00AD9CBF /* Primary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4563984E1D581EDF00AD9CBF /* Primary.storyboard */; };
+		456398521D581EDF00AD9CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456398511D581EDF00AD9CBF /* Assets.xcassets */; };
+		456398551D581EDF00AD9CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 456398531D581EDF00AD9CBF /* LaunchScreen.storyboard */; };
+		459ED1AB1D5AD2A9000DB458 /* FALoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */; };
+		459ED1B01D5AEB40000DB458 /* NSString+HKZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1AF1D5AEB40000DB458 /* NSString+HKZAdd.m */; };
+		459ED1B51D5B12EA000DB458 /* EXTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 459ED1B41D5B12EA000DB458 /* EXTView.m */; };
+		45A919D11D582BD50062E28C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919D01D582BD50062E28C /* AppDelegate.m */; };
+		45A919D91D582C6E0062E28C /* FABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919D81D582C6E0062E28C /* FABaseViewController.m */; };
+		45A919DC1D582C980062E28C /* FABaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919DB1D582C980062E28C /* FABaseTableViewController.m */; };
+		45A919E31D582DCD0062E28C /* FAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A919E21D582DCD0062E28C /* FAUtil.m */; };
+		45E4DCAB1D598EE7000A0E00 /* FAFinancing.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCAA1D598EE7000A0E00 /* FAFinancing.m */; };
+		45E4DCB21D59B752000A0E00 /* FAGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCB11D59B752000A0E00 /* FAGuideViewController.m */; };
+		45E4DCB91D59B8A4000A0E00 /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */; };
+		45E4DCC01D59B953000A0E00 /* FAProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */; };
+		45E4DCC71D59B990000A0E00 /* FAMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */; };
+		45E4DCCE1D59B9BF000A0E00 /* FAMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */; };
+		45E4DCD11D59BB74000A0E00 /* FARegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */; };
+		45E4DCD61D59BF25000A0E00 /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E4DCD41D59BF25000A0E00 /* Secondary.storyboard */; };
+		AC996B9949AC3EAE0DB2CEF0 /* libPods-FAFinancing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E529050C2349479B5EB6F0DF /* libPods-FAFinancing.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		451428AD1D58683D00067C49 /* FAErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAErrorDescription.h; sourceTree = "<group>"; };
+		451428AE1D58683D00067C49 /* FAErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAErrorDescription.m; sourceTree = "<group>"; };
+		451428B11D588B7700067C49 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		4520001F016E539D2630B3E0 /* Pods-FAFinancing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAFinancing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAFinancing/Pods-FAFinancing.debug.xcconfig"; sourceTree = "<group>"; };
+		454468B31D5C4EA600BC0035 /* UINavigationController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WXSTransition.h"; sourceTree = "<group>"; };
+		454468B41D5C4EA600BC0035 /* UINavigationController+WXSTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WXSTransition.m"; sourceTree = "<group>"; };
+		454468B51D5C4EA600BC0035 /* UIViewController+WXSTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WXSTransition.h"; sourceTree = "<group>"; };
+		454468B61D5C4EA600BC0035 /* UIViewController+WXSTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WXSTransition.m"; sourceTree = "<group>"; };
+		454468B71D5C4EA600BC0035 /* WXSTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTransitionManager.h; sourceTree = "<group>"; };
+		454468B81D5C4EA600BC0035 /* WXSTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXSTransitionManager.m; sourceTree = "<group>"; };
+		454468B91D5C4EA600BC0035 /* WXSTypedefConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXSTypedefConfig.h; sourceTree = "<group>"; };
+		4550944E1D5834CA007D561E /* UIActionSheet+FastAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+FastAction.h"; sourceTree = "<group>"; };
+		4550944F1D5834CA007D561E /* UIActionSheet+FastAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+FastAction.m"; sourceTree = "<group>"; };
+		455094501D5834CA007D561E /* UIAlertView+RWBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+RWBlock.h"; sourceTree = "<group>"; };
+		455094511D5834CA007D561E /* UIAlertView+RWBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+RWBlock.m"; sourceTree = "<group>"; };
+		455094541D583622007D561E /* FADefineHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FADefineHeader.h; sourceTree = "<group>"; };
+		455094551D583622007D561E /* FADefineHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FADefineHeader.m; sourceTree = "<group>"; };
+		455094571D583ADC007D561E /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		455094581D583ADC007D561E /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		4550945A1D583DC2007D561E /* UIWindow+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+HUD.h"; sourceTree = "<group>"; };
+		4550945B1D583DC2007D561E /* UIWindow+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+HUD.m"; sourceTree = "<group>"; };
+		455094601D585125007D561E /* LoginRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginRegister.storyboard; sourceTree = "<group>"; };
+		455094621D5851D2007D561E /* FABaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABaseTabBarController.h; sourceTree = "<group>"; };
+		455094631D5851D2007D561E /* FABaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABaseTabBarController.m; sourceTree = "<group>"; };
+		455094691D586241007D561E /* FAAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAAccount.h; sourceTree = "<group>"; };
+		4550946A1D586241007D561E /* FAAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAAccount.m; sourceTree = "<group>"; };
+		4550946B1D586241007D561E /* FAAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAAccountManager.h; sourceTree = "<group>"; };
+		4550946C1D586241007D561E /* FAAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAAccountManager.m; sourceTree = "<group>"; };
+		4550946D1D586241007D561E /* FARequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARequestManager.h; sourceTree = "<group>"; };
+		4550946E1D586241007D561E /* FARequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARequestManager.m; sourceTree = "<group>"; };
+		4550946F1D586241007D561E /* FAParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAParameters.h; sourceTree = "<group>"; };
+		455094701D586241007D561E /* FAParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAParameters.m; sourceTree = "<group>"; };
+		455269191D5D67E600F53FD8 /* UIViewController+FAFinancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FAFinancing.h"; sourceTree = "<group>"; };
+		4552691A1D5D67E600F53FD8 /* UIViewController+FAFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FAFinancing.m"; sourceTree = "<group>"; };
+		456398421D581EDF00AD9CBF /* FAFinancing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAFinancing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		456398461D581EDF00AD9CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4563984F1D581EDF00AD9CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Primary.storyboard; sourceTree = "<group>"; };
+		456398511D581EDF00AD9CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456398541D581EDF00AD9CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		456398561D581EDF00AD9CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		459ED1A91D5AD2A9000DB458 /* FALoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FALoginViewController.h; sourceTree = "<group>"; };
+		459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALoginViewController.m; sourceTree = "<group>"; };
+		459ED1AE1D5AEB40000DB458 /* NSString+HKZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HKZAdd.h"; sourceTree = "<group>"; };
+		459ED1AF1D5AEB40000DB458 /* NSString+HKZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HKZAdd.m"; sourceTree = "<group>"; };
+		459ED1B31D5B12EA000DB458 /* EXTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTView.h; sourceTree = "<group>"; };
+		459ED1B41D5B12EA000DB458 /* EXTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTView.m; sourceTree = "<group>"; };
+		45A919CA1D5829B90062E28C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		45A919CF1D582BD50062E28C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45A919D01D582BD50062E28C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45A919D71D582C6E0062E28C /* FABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABaseViewController.h; sourceTree = "<group>"; };
+		45A919D81D582C6E0062E28C /* FABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABaseViewController.m; sourceTree = "<group>"; };
+		45A919DA1D582C980062E28C /* FABaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FABaseTableViewController.h; sourceTree = "<group>"; };
+		45A919DB1D582C980062E28C /* FABaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FABaseTableViewController.m; sourceTree = "<group>"; };
+		45A919E11D582DCD0062E28C /* FAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAUtil.h; sourceTree = "<group>"; };
+		45A919E21D582DCD0062E28C /* FAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAUtil.m; sourceTree = "<group>"; };
+		45E4DCA81D5987D8000A0E00 /* FADeFineHeader_EXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FADeFineHeader_EXT.h; sourceTree = "<group>"; };
+		45E4DCA91D598EE7000A0E00 /* FAFinancing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAFinancing.h; sourceTree = "<group>"; };
+		45E4DCAA1D598EE7000A0E00 /* FAFinancing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAFinancing.m; sourceTree = "<group>"; };
+		45E4DCB01D59B752000A0E00 /* FAGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAGuideViewController.h; sourceTree = "<group>"; };
+		45E4DCB11D59B752000A0E00 /* FAGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAGuideViewController.m; sourceTree = "<group>"; };
+		45E4DCB71D59B8A4000A0E00 /* FAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
+		45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
+		45E4DCBE1D59B953000A0E00 /* FAProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAProjectViewController.h; sourceTree = "<group>"; };
+		45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAProjectViewController.m; sourceTree = "<group>"; };
+		45E4DCC51D59B990000A0E00 /* FAMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMessageViewController.h; sourceTree = "<group>"; };
+		45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMessageViewController.m; sourceTree = "<group>"; };
+		45E4DCCC1D59B9BF000A0E00 /* FAMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMineViewController.h; sourceTree = "<group>"; };
+		45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMineViewController.m; sourceTree = "<group>"; };
+		45E4DCCF1D59BB74000A0E00 /* FARegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FARegisterViewController.h; sourceTree = "<group>"; };
+		45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FARegisterViewController.m; sourceTree = "<group>"; };
+		45E4DCD51D59BF25000A0E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Secondary.storyboard; sourceTree = "<group>"; };
+		578BF59A71532E1251E124E1 /* Pods-FAFinancing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAFinancing.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAFinancing/Pods-FAFinancing.release.xcconfig"; sourceTree = "<group>"; };
+		E529050C2349479B5EB6F0DF /* libPods-FAFinancing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FAFinancing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4563983F1D581EDF00AD9CBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC996B9949AC3EAE0DB2CEF0 /* libPods-FAFinancing.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451428B01D588B2A00067C49 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				451428B11D588B7700067C49 /* app_icon.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		454468B11D5C4EA600BC0035 /* WXSTransition */ = {
+			isa = PBXGroup;
+			children = (
+				454468B31D5C4EA600BC0035 /* UINavigationController+WXSTransition.h */,
+				454468B41D5C4EA600BC0035 /* UINavigationController+WXSTransition.m */,
+				454468B51D5C4EA600BC0035 /* UIViewController+WXSTransition.h */,
+				454468B61D5C4EA600BC0035 /* UIViewController+WXSTransition.m */,
+				454468B71D5C4EA600BC0035 /* WXSTransitionManager.h */,
+				454468B81D5C4EA600BC0035 /* WXSTransitionManager.m */,
+				454468B91D5C4EA600BC0035 /* WXSTypedefConfig.h */,
+			);
+			path = WXSTransition;
+			sourceTree = "<group>";
+		};
+		455094391D5832CF007D561E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4550945A1D583DC2007D561E /* UIWindow+HUD.h */,
+				4550945B1D583DC2007D561E /* UIWindow+HUD.m */,
+				455094571D583ADC007D561E /* UIViewController+HUD.h */,
+				455094581D583ADC007D561E /* UIViewController+HUD.m */,
+				459ED1AE1D5AEB40000DB458 /* NSString+HKZAdd.h */,
+				459ED1AF1D5AEB40000DB458 /* NSString+HKZAdd.m */,
+				4550944D1D5834CA007D561E /* AlertActionBlock */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4550944D1D5834CA007D561E /* AlertActionBlock */ = {
+			isa = PBXGroup;
+			children = (
+				4550944E1D5834CA007D561E /* UIActionSheet+FastAction.h */,
+				4550944F1D5834CA007D561E /* UIActionSheet+FastAction.m */,
+				455094501D5834CA007D561E /* UIAlertView+RWBlock.h */,
+				455094511D5834CA007D561E /* UIAlertView+RWBlock.m */,
+			);
+			path = AlertActionBlock;
+			sourceTree = "<group>";
+		};
+		4550945F1D585125007D561E /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				455094601D585125007D561E /* LoginRegister.storyboard */,
+				45E4DCCF1D59BB74000A0E00 /* FARegisterViewController.h */,
+				45E4DCD01D59BB74000A0E00 /* FARegisterViewController.m */,
+				459ED1A91D5AD2A9000DB458 /* FALoginViewController.h */,
+				459ED1AA1D5AD2A9000DB458 /* FALoginViewController.m */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		455094681D586241007D561E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				455094691D586241007D561E /* FAAccount.h */,
+				4550946A1D586241007D561E /* FAAccount.m */,
+				4550946B1D586241007D561E /* FAAccountManager.h */,
+				4550946C1D586241007D561E /* FAAccountManager.m */,
+				4550946D1D586241007D561E /* FARequestManager.h */,
+				4550946E1D586241007D561E /* FARequestManager.m */,
+				4550946F1D586241007D561E /* FAParameters.h */,
+				455094701D586241007D561E /* FAParameters.m */,
+				451428AD1D58683D00067C49 /* FAErrorDescription.h */,
+				451428AE1D58683D00067C49 /* FAErrorDescription.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		456398391D581EDF00AD9CBF = {
+			isa = PBXGroup;
+			children = (
+				456398441D581EDF00AD9CBF /* FAFinancing */,
+				456398431D581EDF00AD9CBF /* Products */,
+				835C267BF7970ADCAF85AE6E /* Pods */,
+				9D9D9153633B961B38628FE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		456398431D581EDF00AD9CBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456398421D581EDF00AD9CBF /* FAFinancing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456398441D581EDF00AD9CBF /* FAFinancing */ = {
+			isa = PBXGroup;
+			children = (
+				451428B01D588B2A00067C49 /* Resource */,
+				45A919C91D5829B90062E28C /* DefineConfig */,
+				45A919D51D582C6E0062E28C /* Custom */,
+				45A919CB1D582B340062E28C /* Classes */,
+				4563984E1D581EDF00AD9CBF /* Primary.storyboard */,
+				45E4DCD41D59BF25000A0E00 /* Secondary.storyboard */,
+				456398511D581EDF00AD9CBF /* Assets.xcassets */,
+				456398531D581EDF00AD9CBF /* LaunchScreen.storyboard */,
+				456398561D581EDF00AD9CBF /* Info.plist */,
+				456398451D581EDF00AD9CBF /* Supporting Files */,
+			);
+			path = FAFinancing;
+			sourceTree = "<group>";
+		};
+		456398451D581EDF00AD9CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				456398461D581EDF00AD9CBF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		459ED1B11D5B12EA000DB458 /* 3rdparty */ = {
+			isa = PBXGroup;
+			children = (
+				454468B11D5C4EA600BC0035 /* WXSTransition */,
+				459ED1B21D5B12EA000DB458 /* EXTView */,
+			);
+			path = 3rdparty;
+			sourceTree = "<group>";
+		};
+		459ED1B21D5B12EA000DB458 /* EXTView */ = {
+			isa = PBXGroup;
+			children = (
+				459ED1B31D5B12EA000DB458 /* EXTView.h */,
+				459ED1B41D5B12EA000DB458 /* EXTView.m */,
+			);
+			path = EXTView;
+			sourceTree = "<group>";
+		};
+		45A919C91D5829B90062E28C /* DefineConfig */ = {
+			isa = PBXGroup;
+			children = (
+				45A919CA1D5829B90062E28C /* PrefixHeader.pch */,
+				45E4DCA81D5987D8000A0E00 /* FADeFineHeader_EXT.h */,
+				455094541D583622007D561E /* FADefineHeader.h */,
+				455094551D583622007D561E /* FADefineHeader.m */,
+			);
+			path = DefineConfig;
+			sourceTree = "<group>";
+		};
+		45A919CB1D582B340062E28C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				45A919CF1D582BD50062E28C /* AppDelegate.h */,
+				45A919D01D582BD50062E28C /* AppDelegate.m */,
+				45E4DCAF1D59B752000A0E00 /* FirstLaunch */,
+				4550945F1D585125007D561E /* LoginRegister */,
+				45E4DCB61D59B8A4000A0E00 /* Main */,
+				45E4DCBD1D59B953000A0E00 /* Project */,
+				45E4DCC41D59B990000A0E00 /* Message */,
+				45E4DCCB1D59B9BF000A0E00 /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		45A919D51D582C6E0062E28C /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				45A919D61D582C6E0062E28C /* Bases */,
+				455094391D5832CF007D561E /* Category */,
+				459ED1B11D5B12EA000DB458 /* 3rdparty */,
+				45A919DD1D582D280062E28C /* Until */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		45A919D61D582C6E0062E28C /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				455094681D586241007D561E /* Request */,
+				45E4DCA91D598EE7000A0E00 /* FAFinancing.h */,
+				45E4DCAA1D598EE7000A0E00 /* FAFinancing.m */,
+				45A919D71D582C6E0062E28C /* FABaseViewController.h */,
+				45A919D81D582C6E0062E28C /* FABaseViewController.m */,
+				45A919DA1D582C980062E28C /* FABaseTableViewController.h */,
+				45A919DB1D582C980062E28C /* FABaseTableViewController.m */,
+				455094621D5851D2007D561E /* FABaseTabBarController.h */,
+				455094631D5851D2007D561E /* FABaseTabBarController.m */,
+				455269191D5D67E600F53FD8 /* UIViewController+FAFinancing.h */,
+				4552691A1D5D67E600F53FD8 /* UIViewController+FAFinancing.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		45A919DD1D582D280062E28C /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				45A919E11D582DCD0062E28C /* FAUtil.h */,
+				45A919E21D582DCD0062E28C /* FAUtil.m */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		45E4DCAF1D59B752000A0E00 /* FirstLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				45E4DCB01D59B752000A0E00 /* FAGuideViewController.h */,
+				45E4DCB11D59B752000A0E00 /* FAGuideViewController.m */,
+			);
+			path = FirstLaunch;
+			sourceTree = "<group>";
+		};
+		45E4DCB61D59B8A4000A0E00 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				45E4DCB71D59B8A4000A0E00 /* FAMainViewController.h */,
+				45E4DCB81D59B8A4000A0E00 /* FAMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		45E4DCBD1D59B953000A0E00 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				45E4DCBE1D59B953000A0E00 /* FAProjectViewController.h */,
+				45E4DCBF1D59B953000A0E00 /* FAProjectViewController.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		45E4DCC41D59B990000A0E00 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				45E4DCC51D59B990000A0E00 /* FAMessageViewController.h */,
+				45E4DCC61D59B990000A0E00 /* FAMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		45E4DCCB1D59B9BF000A0E00 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				45E4DCCC1D59B9BF000A0E00 /* FAMineViewController.h */,
+				45E4DCCD1D59B9BF000A0E00 /* FAMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		835C267BF7970ADCAF85AE6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4520001F016E539D2630B3E0 /* Pods-FAFinancing.debug.xcconfig */,
+				578BF59A71532E1251E124E1 /* Pods-FAFinancing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D9D9153633B961B38628FE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E529050C2349479B5EB6F0DF /* libPods-FAFinancing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456398411D581EDF00AD9CBF /* FAFinancing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456398591D581EDF00AD9CBF /* Build configuration list for PBXNativeTarget "FAFinancing" */;
+			buildPhases = (
+				3481CA33EF1B7B7EBE03143D /* Check Pods Manifest.lock */,
+				4563983E1D581EDF00AD9CBF /* Sources */,
+				456398401D581EDF00AD9CBF /* Resources */,
+				4563983F1D581EDF00AD9CBF /* Frameworks */,
+				7352CFBB8ED1D3779BD9D00C /* Embed Pods Frameworks */,
+				E6F1F7DE7F07FAE5D51AB609 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FAFinancing;
+			productName = FAFinancing;
+			productReference = 456398421D581EDF00AD9CBF /* FAFinancing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4563983A1D581EDF00AD9CBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯康柱";
+				TargetAttributes = {
+					456398411D581EDF00AD9CBF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4563983D1D581EDF00AD9CBF /* Build configuration list for PBXProject "FAFinancing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 456398391D581EDF00AD9CBF;
+			productRefGroup = 456398431D581EDF00AD9CBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456398411D581EDF00AD9CBF /* FAFinancing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		456398401D581EDF00AD9CBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456398551D581EDF00AD9CBF /* LaunchScreen.storyboard in Resources */,
+				45E4DCD61D59BF25000A0E00 /* Secondary.storyboard in Resources */,
+				455094611D585125007D561E /* LoginRegister.storyboard in Resources */,
+				456398521D581EDF00AD9CBF /* Assets.xcassets in Resources */,
+				451428B21D588B7700067C49 /* app_icon.png in Resources */,
+				456398501D581EDF00AD9CBF /* Primary.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3481CA33EF1B7B7EBE03143D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7352CFBB8ED1D3779BD9D00C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAFinancing/Pods-FAFinancing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F1F7DE7F07FAE5D51AB609 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FAFinancing/Pods-FAFinancing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4563983E1D581EDF00AD9CBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459ED1B51D5B12EA000DB458 /* EXTView.m in Sources */,
+				456398471D581EDF00AD9CBF /* main.m in Sources */,
+				459ED1AB1D5AD2A9000DB458 /* FALoginViewController.m in Sources */,
+				455094561D583622007D561E /* FADefineHeader.m in Sources */,
+				459ED1B01D5AEB40000DB458 /* NSString+HKZAdd.m in Sources */,
+				45E4DCCE1D59B9BF000A0E00 /* FAMineViewController.m in Sources */,
+				45A919E31D582DCD0062E28C /* FAUtil.m in Sources */,
+				455094711D586241007D561E /* FAAccount.m in Sources */,
+				451428AF1D58683D00067C49 /* FAErrorDescription.m in Sources */,
+				4550945C1D583DC2007D561E /* UIWindow+HUD.m in Sources */,
+				45E4DCC01D59B953000A0E00 /* FAProjectViewController.m in Sources */,
+				455094741D586241007D561E /* FAParameters.m in Sources */,
+				45E4DCB91D59B8A4000A0E00 /* FAMainViewController.m in Sources */,
+				455094531D5834CA007D561E /* UIAlertView+RWBlock.m in Sources */,
+				455094521D5834CA007D561E /* UIActionSheet+FastAction.m in Sources */,
+				45E4DCB21D59B752000A0E00 /* FAGuideViewController.m in Sources */,
+				454468BC1D5C4EA600BC0035 /* UIViewController+WXSTransition.m in Sources */,
+				45A919D91D582C6E0062E28C /* FABaseViewController.m in Sources */,
+				455094731D586241007D561E /* FARequestManager.m in Sources */,
+				45E4DCC71D59B990000A0E00 /* FAMessageViewController.m in Sources */,
+				4552691B1D5D67E600F53FD8 /* UIViewController+FAFinancing.m in Sources */,
+				454468BD1D5C4EA600BC0035 /* WXSTransitionManager.m in Sources */,
+				45A919D11D582BD50062E28C /* AppDelegate.m in Sources */,
+				45E4DCD11D59BB74000A0E00 /* FARegisterViewController.m in Sources */,
+				45E4DCAB1D598EE7000A0E00 /* FAFinancing.m in Sources */,
+				455094721D586241007D561E /* FAAccountManager.m in Sources */,
+				455094591D583ADC007D561E /* UIViewController+HUD.m in Sources */,
+				455094641D5851D2007D561E /* FABaseTabBarController.m in Sources */,
+				45A919DC1D582C980062E28C /* FABaseTableViewController.m in Sources */,
+				454468BB1D5C4EA600BC0035 /* UINavigationController+WXSTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4563984E1D581EDF00AD9CBF /* Primary.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4563984F1D581EDF00AD9CBF /* Base */,
+			);
+			name = Primary.storyboard;
+			sourceTree = "<group>";
+		};
+		456398531D581EDF00AD9CBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				456398541D581EDF00AD9CBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45E4DCD41D59BF25000A0E00 /* Secondary.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E4DCD51D59BF25000A0E00 /* Base */,
+			);
+			name = Secondary.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		456398571D581EDF00AD9CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		456398581D581EDF00AD9CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4563985A1D581EDF00AD9CBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4520001F016E539D2630B3E0 /* Pods-FAFinancing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaFinancing/DefineConfig/PrefixHeader.pch";
+				INFOPLIST_FILE = FAFinancing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtiworld.FAFinancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4563985B1D581EDF00AD9CBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578BF59A71532E1251E124E1 /* Pods-FAFinancing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FaFinancing/DefineConfig/PrefixHeader.pch";
+				INFOPLIST_FILE = FAFinancing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtiworld.FAFinancing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4563983D1D581EDF00AD9CBF /* Build configuration list for PBXProject "FAFinancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456398571D581EDF00AD9CBF /* Debug */,
+				456398581D581EDF00AD9CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456398591D581EDF00AD9CBF /* Build configuration list for PBXNativeTarget "FAFinancing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4563985A1D581EDF00AD9CBF /* Debug */,
+				4563985B1D581EDF00AD9CBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4563983A1D581EDF00AD9CBF /* Project object */;
+}
